@@ -1,0 +1,33 @@
+{
+  "chains": [
+    {
+      "name": "Hyperspace",
+      "type": "ethereum",
+      "id": "23",
+      "endpoint": "ws://127.0.0.1:19944",
+      "from": "0x28d99DF76146472CB0560D9125348D6377aa36d2",
+      "opts": {
+        "bridge": "0x6F17592A7B45D09d59e24be1f332b5d76D1760e9",
+        "erc20Handler": "0x6Da69B6008A6Fdb3B3f2c7179e62D945A6D771a8",
+        "genericHandler": "0x6Da69B6008A6Fdb3B3f2c7179e62D945A6D771a8",
+        "gasLimit": "10000000",
+        "maxGasPrice": "10000000000"
+
+      }
+    },
+    {
+      "name": "NF-Testnet",
+      "type": "ethereum",
+      "id": "53",
+      "endpoint": "ws://127.0.0.1:9944",
+      "from": "0x8E29DF6D79Af162B17d29B079B8F750aEBEE5D91",
+      "opts": {
+        "bridge": "0x7c925759D7B6CB10A5A5aBAEA1f8caF9033fC0BF",
+        "erc20Handler": "0xEBf7386A3dD9EAe62AC9638d4CD90264995c3659",
+        "genericHandler": "0xEBf7386A3dD9EAe62AC9638d4CD90264995c3659",
+        "gasLimit": "10000000",
+        "maxGasPrice": "10000000000"
+      }
+    }
+  ]
+}
