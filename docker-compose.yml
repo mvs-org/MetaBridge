@@ -6,11 +6,12 @@ services:
   bridge:
     build:
       context: .
-    container_name: bridge
+    image: metabridge
+    container_name: meta-bridge
     environment:
-      - KEYSTORE_PASSWORD=password
-    command: --config /config/config.json
+      - KEYSTORE_PASSWORD=123
+    command: --config /config/config.json --latest
     volumes:
-      - ./config:/config
+      - ./config.json:/config/config.json
       - ./keys:/keys/
     network_mode: host
