@@ -21,7 +21,7 @@ The writer recieves the message and creates a proposals on-chain. Once a proposa
 package ethereum
 
 import (
-	"fmt"
+	_ "fmt"
 	"math/big"
 
 	bridge "github.com/ChainSafe/ChainBridge/bindings/Bridge"
